@@ -1,0 +1,14 @@
+칼로리노트 iPhone 오프라인 PWA 설치 안내
+
+1. PC에서 github.com 무료 계정 가입.
+2. 새 Public 저장소 생성 (예: calorie-note).
+3. 압축파일 내부의 index.html, app.js, style.css, sw.js, manifest.webmanifest, icon-192.png, icon-512.png을 저장소 최상단에 업로드.
+4. Settings > Pages > Deploy from a branch > main / (root) > Save.
+5. 생성된 https://사용자이름.github.io/calorie-note/ 주소를 iPhone Safari에서 열기.
+6. Safari 공유 > 홈 화면에 추가.
+7. 앱을 온라인에서 처음 실행한 뒤 비행기 모드에서 다시 열어 오프라인 확인.
+
+주의: ZIP을 파일 앱에서 여는 것만으로 PWA가 설치되지 않습니다. HTTPS 배포가 한 번 필요합니다.
+데이터는 아이폰 내부에만 저장되며 PC와 자동 동기화되지 않습니다.
+Safari 데이터 삭제나 기기 변경에 대비해 '기록·백업' 메뉴에서 JSON 파일을 주기적으로 저장하세요.
+공개 저장소에는 앱 코드만 올라가며 개인 식단 기록은 업로드되지 않습니다.
